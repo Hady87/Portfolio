@@ -5,43 +5,25 @@ import {
   Navigate,
   Route,
   Routes,
+  useLocation
 } from "react-router-dom";
+import AnimatedPage from "./components/AnimatedPage";
+import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
-import Projects from "./components/Projects";
-import About from "./components/About";
-import Contact from "./components/Contact";
+
 import './App.css';
+import Footer from "./components/Footer";
 
 function App() {
+  
   return (
     <>
    
      <Router>
           <Header />
          
-              <Routes>
-                <Route
-                  path="/projects"
-                  element={ <Projects />}
-                />
-
-                <Route
-                  path="/about"
-                  
-                  element={ <About />}
-                />
-                <Route
-                  path="/contact"
-                  
-                  element={<Contact />}
-                />
-                <Route
-                  path=""
-                  element={ <Navigate to="/about" />}
-                />
-              </Routes>
-           
-         
+        <AnimatedPage/>
+         <Footer/>
         </Router>
     </>
   );

@@ -20,7 +20,7 @@
     {
         id: 2,
         name:"25 + 5 Clock",
-        image: "/assets/images/clock.png",
+        image: "/assets/images/25Clock.png",
         appLink:"https://gorgeous-daffodil-a7aa42.netlify.app/",
         githubLink:"https://github.com/Hady87/Pomodoro-Clock",
         description: "This app is a timer that can be used to break work into intervals separated by short breaks. By default the length of work session is 25 minutes and the length of break is 5 minute. The user can adjust the length of each one",

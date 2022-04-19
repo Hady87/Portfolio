@@ -1,27 +1,69 @@
 import React from "react";
-import { FaEnvelope, FaGithub,FaLinkedin } from "react-icons/fa";
-
-
+import axios from "axios";
+import AnimatedPage from "./AnimatedPage";
+import JsFileDownloader from "js-file-downloader";
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
+import { FadeTransform, Fade, Stagger } from "react-animation-components";
 
 function Contact() {
+  const handleClick = (url, filename) => {
+    axios
+      .get(url, {
+        responseType: "blob",
+      })
+      .then((res) => {
+        JsFileDownloader(res.data, filename);
+      });
+  };
   return (
-    <>
-     <div className="container">
-        <div className="row my-5">
-          <div className="col-8 mx-auto my-2">
-            <h3>Thanks for taking the time to reach out</h3>
-            <button type="button" className="btn btn-primary my-4 d-flex">Donwload Resume</button>
-            
-          
-           
-            <a  className="d-flex my-2" href="mailto:elhadi.nennih@gmail.com" target="_blanc"><FaEnvelope className="my-1 mx-2"/>Email me</a>
-            <a  className="d-flex my-2" href="https://www.linkedin.com/in/hady-elmoctar/" target="_blanc"><FaLinkedin className="my-1 mx-2"/>Linkedin</a>
-             <a  className="d-flex my-2" href="https://github.com/Hady87" target="_blanc"><FaGithub className="my-1 mx-2"/>Github</a>
+    <motion.div
+      initial={{ opacity: 0, x: 100 }}
+      animate={{ opacity: 1, x: 0 }}
+      exit={{ opacity: 0, x: -100 }}
+    >
+      <div className="container">
+        <div className="row my-5 ">
+          <FadeTransform
+            in
+            transformProps={{
+              exitTransform: "scale(0.5) translateY(50%)",
+            }}
+          >
+            <div className="col-8 mx-auto my-2 styleContact">
+              <h3>Thanks for taking the time to reach out</h3>
+         
+              <a
+                className="d-flex my-2"
+                href="mailto:elhadi.nennih@gmail.com"
+                target="_blanc"
+              >
+                <FaEnvelope className="my-1 mx-2" />
+                Email me
+              </a>
+              <a
+                className="d-flex my-2"
+                href="https://www.linkedin.com/in/hady-elmoctar/"
+                target="_blanc"
+              >
+                <FaLinkedin className="my-1 mx-2" />
+                Linkedin
+              </a>
+              <a
+                className="d-flex my-2"
+                href="https://github.com/Hady87"
+                target="_blanc"
+              >
+                <FaGithub className="my-1 mx-2" />
+                Github
+              </a>
+
              
             </div>
-             </div>
-              </div>
-    </>
+          </FadeTransform>
+        </div>
+      </div>
+    </motion.div>
   );
 }
 
