@@ -20,7 +20,7 @@ function About() {
             }}
           >
             <div className="col-  mx-auto my-2">
-              <div className=" d-flex justify-content-end  my-2">
+              <div className=" my-2">
                 <a
                   href="https://pdfhost.io/v/rkSWLNooD_EL_HADY_ELMOCTAR"
                   target="_blanc"
@@ -30,10 +30,10 @@ function About() {
                   </button>
                 </a>
               </div>
-              <h2 className=" d-flex justify-content-start  my-2">About me</h2>
+              <h2 className="my-2">Summary</h2>
               
               <p>
-                I am a self taught Software Developer. I have a Master's degree
+                I am a self taught Front-end Developer. I have a Master's degree
                 in Electronics & Computer Sciences. For the past six years, I
                 worked as a Technical support Engineer. I developed a passion
                 for serving the Customer, solving problems, and making things
@@ -50,14 +50,12 @@ function About() {
           </FadeTransform>
         </div>
         <div className="row">
-          <FadeTransform
-            in
-            transformProps={{
-              exitTransform: "scale(0.5) translateY(50%)",
-            }}
-          >
+         
             <h2 className="col-  mx-auto my-2">Skills:</h2>
-            <div className="row "></div>
+            </div>
+           
+            <div className="row ">
+                
             <div className="col-9 col-sm-3 mx-auto my-2">
               <ul>
                 <li>HTML</li>
@@ -78,7 +76,7 @@ function About() {
                 <li>NPM</li>
               </ul>
             </div>
-          </FadeTransform>
+          
         </div>
       </div>
     </motion.div>
