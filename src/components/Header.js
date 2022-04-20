@@ -23,7 +23,7 @@ import { Container, Navbar, Nav } from "react-bootstrap";
             </div>
           </div>
         </div>
-        <Navbar  collapseOnSelect className="navbar sticky-top " variant="dark" expand="lg" >
+        <Navbar  collapseOnSelect className="navbar sticky-top" variant="dark" expand="lg" >
           <Container >
             <Navbar.Brand href="/">
               

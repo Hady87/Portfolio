@@ -39,7 +39,7 @@ function Projects() {
                   country Mauritania.
                 </Card.Text>
                 <Card.Text>
-                  Technologies used: React,React Hooks, Bootstrap 5,
+                  Technologies used: React,React Hooks, Context API, Bootstrap 5,
                   HTML,CSS,JavaScript, Google Map API.
                 </Card.Text>
                 <div className="d-flex justify-content-between my-4">
