@@ -52,7 +52,7 @@ function Projects() {
                   </a>
                   <a
                     className="d-flex"
-                    href="https://github.com/Hady87"
+                    href="https://github.com/Hady87/FC-Mauritania"
                     target="_blanc"
                   >
                     <FaGithub size="30" />

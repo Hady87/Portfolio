@@ -43,7 +43,7 @@ function About() {
               <p>
                 I like to build websites that are accessible, easy to use and
                 super fast. I use <i>React</i>, Bootstrap, HTML, CSS and
-                JavaScript and to produce responsive websites and web apps that
+                JavaScript to produce responsive websites and web apps that
                 work across browsers, and devices.
               </p>
             </div>
