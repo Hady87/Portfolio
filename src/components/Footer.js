@@ -18,9 +18,9 @@ function Footer() {
               </div>
               <div className="col-8 col-sm-8 d-flex justify-content-end mx-auto my-2">
                  
-                  <a   href="https://www.linkedin.com/in/hady-elmoctar/" target="_blanc"><FaLinkedin className="my-2 mx-2"/></a>
-             <a   href="https://github.com/Hady87" target="_blanc"><FaGithub className="my-1 mx-2"/></a>
-               <a  href="mailto:elhadi.nennih@gmail.com" target="_blanc"><FaEnvelope className="my-1 mx-2"/></a>
+                  <a   href="https://www.linkedin.com/in/hady-elmoctar/" target="_blanc"><FaLinkedin className="my-1 mx-2" size={30}/></a>
+             <a   href="https://github.com/Hady87" target="_blanc"><FaGithub className="my-1 mx-2" size={30}/></a>
+               <a  href="mailto:elhadi.nennih@gmail.com" target="_blanc"><FaEnvelope className="my-1 mx-2" size={30}/></a>
               </div>
               
            </div>

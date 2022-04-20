@@ -64,6 +64,7 @@ h2 {
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
   margin-top: 40px;
+  font-size: larger;
 }
 .site-footer a {
   text-decoration: none;
@@ -80,5 +81,6 @@ p {
 }
 .styleContact a{
   text-decoration: none;
+  font-size: larger;
 }
 

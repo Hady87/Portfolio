@@ -37,7 +37,7 @@ function About() {
                 in Electronics & Computer Sciences. For the past six years, I
                 worked as a Technical support Engineer. I developed a passion
                 for serving the Customer, solving problems, and making things
-                efficient, which kind of drove me to be a Frontend engineer and
+                efficient, which eventually drove me to be a Frontend engineer and
                 Web developer.
               </p>
               <p>

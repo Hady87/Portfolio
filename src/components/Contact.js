@@ -22,7 +22,7 @@ function Contact() {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -100 }}
     >
-      <div className="container">
+      <div className="container d-flex flex-column min-vh-100 justify-content-start align-items-center" >
         <div className="row my-5 ">
           <FadeTransform
             in
@@ -30,7 +30,7 @@ function Contact() {
               exitTransform: "scale(0.5) translateY(50%)",
             }}
           >
-            <div className="col-8 mx-auto my-2 styleContact">
+            <div className="col-8 mx-auto my-2 styleContact ">
               <h3>Thanks for taking the time to reach out</h3>
          
               <a
