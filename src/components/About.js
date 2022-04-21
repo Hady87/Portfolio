@@ -22,7 +22,7 @@ function About() {
             <div className="col-  mx-auto my-2">
               <div className=" my-2">
                 <a
-                  href="https://drive.google.com/file/d/1Y16tbvQq3VM-XEEWBEPj7XYji9pETWES/view?usp=sharing"
+                  href="https://online.flippingbook.com/view/993219131/"
                   target="_blanc"
                 >
                   <button type="button" className="btn btn-primary my-4 d-flex">
