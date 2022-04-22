@@ -1,9 +1,9 @@
 import React from "react";
-import AnimatedPage from "./AnimatedPage";
-import Card from "react-bootstrap/Card";
-import { motion } from "framer-motion";
-import { FadeTransform, Fade, Stagger } from "react-animation-components";
 
+
+import { motion } from "framer-motion";
+import { FadeTransform } from "react-animation-components";
+import Pdf from "../shared/01ELHADY_ELMOCTAR_Resume.pdf"
 function About() {
   return (
     <motion.div
@@ -22,8 +22,8 @@ function About() {
             <div className="col-  mx-auto my-2">
               <div className=" my-2">
                 <a
-                  href="https://pdfhost.io/v/Xu2nzci6K_EL_HADY_ELMOCTAR"
-                  target="_blanc"
+                  href={Pdf} target="_blank" rel="noopener noreferrer"
+                  
                 >
                   <button type="button" className="btn btn-primary my-4 d-flex">
                     Donwload Resume
