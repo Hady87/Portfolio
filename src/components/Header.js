@@ -12,16 +12,21 @@ import { Container, Navbar, Nav } from "react-bootstrap";
     return (
       <>
        <div className="jumbotron">
-          <div className="container">
-            <div className="row">
-              <div className="col-">
-                
+          
+              <div className="d-flex flex-row justify-content-start align-items-center ">
+                 <img
+                src="/assets/images/photo.jpg"
+                height="150"
+                width="150"
+                alt="FC-Mauritania Logo"
+                className=""
+              />
+              <h2>Front-End Engineer</h2>
               </div>
              
             
 
-            </div>
-          </div>
+           
         </div>
         <Navbar  collapseOnSelect className="navbar sticky-top" variant="dark" expand="lg" >
           <Container >

@@ -24,6 +24,12 @@ body {
   background-image: linear-gradient(to right, #DCDCDC, #A9A9A9, #2F4F4F);
   height: 150px;
 }
+.jumbotron h2{
+  margin-left: 4px;
+  color: white;
+
+ 
+}
 
 
 
