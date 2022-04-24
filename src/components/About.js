@@ -1,6 +1,4 @@
 import React from "react";
-
-
 import { motion } from "framer-motion";
 import { FadeTransform } from "react-animation-components";
 import Pdf from "../shared/01ELHADY_ELMOCTAR_Resume.pdf"
@@ -72,6 +70,7 @@ function About() {
             </div>
             <div className="col-9 col-sm-3 mx-auto  my-2">
               <ul>
+                <li>Redux</li>
                 <li>Git/Github</li>
                 <li>NPM</li>
               </ul>

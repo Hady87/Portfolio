@@ -22,7 +22,7 @@ function Contact() {
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -100 }}
     >
-      <div className="container d-flex flex-column min-vh-100 justify-content-start align-items-center" >
+      <div className="container d-flex flex-column heighContact justify-content-start align-items-center" >
         <div className="row my-5 ">
           <FadeTransform
             in
